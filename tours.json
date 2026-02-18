@@ -1,32 +1,20 @@
 [
   {
+    "destination": "Ouagadougou, Burkina Faso",
+    "experience": "Discover the heart of West Africa! Explore vibrant markets, local music festivals, and cultural heritage sites.",
     "region": "West Africa",
-    "destination": "Accra, Ghana",
-    "experience": "Cultural & City Tours",
-    "booking_link": "https://calendly.com/your-username"
+    "booking_link": "https://calendly.com/hennymoneyafric/ouagadougou-tour"
   },
   {
-    "region": "West Africa",
     "destination": "Lagos, Nigeria",
-    "experience": "Music & Adventure Tours",
-    "booking_link": "https://calendly.com/your-username"
-  },
-  {
+    "experience": "Experience Africa’s music capital! Enjoy city tours, Afrobeat nights, and cultural adventures.",
     "region": "West Africa",
-    "destination": "Dakar, Senegal",
-    "experience": "Heritage & Coastal Tours",
-    "booking_link": "https://calendly.com/your-username"
+    "booking_link": "https://calendly.com/hennymoneyafric/lagos-tour"
   },
   {
-    "region": "Global",
-    "destination": "Cape Town, South Africa",
-    "experience": "City & Adventure Tours",
-    "booking_link": "https://calendly.com/your-username"
-  },
-  {
-    "region": "Global",
-    "destination": "Paris, France",
-    "experience": "Music & Cultural Experience",
-    "booking_link": "https://calendly.com/your-username"
+    "destination": "Accra, Ghana",
+    "experience": "Explore the coastal beauty, local rhythms, and rich history of Ghana.",
+    "region": "West Africa",
+    "booking_link": "https://calendly.com/hennymoneyafric/accra-tour"
   }
 ]
