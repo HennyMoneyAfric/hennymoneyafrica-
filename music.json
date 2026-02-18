@@ -2,23 +2,27 @@
   {
     "title": "Africa Unite",
     "artist": "HennyMoney Afric",
-    "release_date": "2026-02-18",
-    "cover": "hero.jpg",
+    "release_date": "2026-02-10",
     "platforms": {
-      "spotify": "https://open.spotify.com/track/example",
-      "apple": "https://music.apple.com/track/example",
-      "youtube": "https://youtube.com/watch?v=example"
-    }
+      "Spotify": "https://open.spotify.com/track/yourlink",
+      "Apple Music": "https://music.apple.com/track/yourlink",
+      "YouTube": "https://youtube.com/watch?v=yourlink"
+    },
+    "genre": "Afrobeats",
+    "cover_image": "hero.jpg",
+    "description": "A unifying anthem celebrating African pride, culture, and music."
   },
   {
-    "title": "Sunrise in Lagos",
+    "title": "Future Sound Africa",
     "artist": "HennyMoney Afric",
-    "release_date": "2026-03-01",
-    "cover": "hero-travel.jpg",
+    "release_date": "2026-03-05",
     "platforms": {
-      "spotify": "#",
-      "apple": "#",
-      "youtube": "#"
-    }
+      "Spotify": "#",
+      "Apple Music": "#",
+      "YouTube": "#"
+    },
+    "genre": "Afrobeats",
+    "cover_image": "hero-travel.jpg",
+    "description": "Highlighting emerging African music talents and global creativity."
   }
 ]
