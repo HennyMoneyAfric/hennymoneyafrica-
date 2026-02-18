@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Africa Unite",
+    "artist": "HennyMoney Afric",
+    "cover": "hero.jpg",
+    "release_date": "2026-02-17",
+    "platforms": {
+      "spotify": "https://open.spotify.com/",
+      "apple": "https://music.apple.com/",
+      "youtube": "https://www.youtube.com/"
+    }
+  }
+]
