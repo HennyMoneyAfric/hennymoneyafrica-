@@ -1,4 +1,3 @@
-
 name: Deploy HennyMoney Afric Website
 
 on:
@@ -19,10 +18,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Accessibility Scan
+      # Optional accessibility scan (fixed)
+      - name: Accessibility Scan (Optional)
         uses: github/accessibility-scanner@v2.8.0
         with:
-          fail-on-violation: false
+          urls: "https://HennyMoneyAfric.github.io/hennymoneyafrica-/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
