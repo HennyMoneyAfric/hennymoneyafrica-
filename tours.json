@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Burkina Faso Adventure",
+    "location": "Ouagadougou, Burkina Faso",
+    "dates": "March 10-20, 2026",
+    "description": "Explore cultural landmarks, music events, and authentic local experiences.",
+    "booking": "https://calendly.com/your-calendar"
+  },
+  {
+    "name": "Nigeria Music & Culture Tour",
+    "location": "Lagos & Abuja, Nigeria",
+    "dates": "April 5-15, 2026",
+    "description": "Join us for festivals, Afrobeat music, and city adventures.",
+    "booking": "https://calendly.com/your-calendar"
+  },
+  {
+    "name": "Ghana Coastal Experience",
+    "location": "Accra & Cape Coast, Ghana",
+    "dates": "May 1-10, 2026",
+    "description": "Discover hidden gems, music, and coastal African culture.",
+    "booking": "https://calendly.com/your-calendar"
+  }
+]
