@@ -1,0 +1,32 @@
+[
+  {
+    "region": "West Africa",
+    "destination": "Accra, Ghana",
+    "experience": "Cultural & City Tours",
+    "booking_link": "https://calendly.com/your-username"
+  },
+  {
+    "region": "West Africa",
+    "destination": "Lagos, Nigeria",
+    "experience": "Music & Adventure Tours",
+    "booking_link": "https://calendly.com/your-username"
+  },
+  {
+    "region": "West Africa",
+    "destination": "Dakar, Senegal",
+    "experience": "Heritage & Coastal Tours",
+    "booking_link": "https://calendly.com/your-username"
+  },
+  {
+    "region": "Global",
+    "destination": "Cape Town, South Africa",
+    "experience": "City & Adventure Tours",
+    "booking_link": "https://calendly.com/your-username"
+  },
+  {
+    "region": "Global",
+    "destination": "Paris, France",
+    "experience": "Music & Cultural Experience",
+    "booking_link": "https://calendly.com/your-username"
+  }
+]
