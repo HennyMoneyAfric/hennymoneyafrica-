@@ -1,56 +1,80 @@
-# 🎵 HennyMoney Afric
+# 🎵🌍 HennyMoney Afric
 
-Welcome to **HennyMoney Afric**, your ultimate hub for **African music, culture, and travel experiences**.  
+**Music • Culture • Travel • Digital Creativity**
 
-🌍 Explore our live website: [https://HennyMoneyAfric.github.io/hennymoneyafrica-/](https://HennyMoneyAfric.github.io/hennymoneyafrica-/)
+Welcome to **HennyMoney Afric** — a creative hub celebrating African music, travel experiences, and cultural innovation.
 
----
-
-## 🚀 About
-
-HennyMoney Afric is all about:
-
-- Sharing **music releases** and digital projects  
-- Showcasing **African travel destinations** and experiences  
-- Inspiring creativity, culture, and global connections  
-
-We combine **music, lifestyle, and travel content** to bring unique African stories to the world.
+🌍 **Live Website:**  
+👉 https://HennyMoneyAfric.github.io/hennymoneyafrica-/
 
 ---
 
-## 🎶 Music Releases
+## 🚀 Vision
 
-Check out our latest singles and projects:
+HennyMoney Afric exists to:
 
-- Single: *Africa Unite*  
-- Available on Spotify, Apple Music, YouTube, and more  
+- 🎶 Promote African music and original releases  
+- ✈️ Showcase powerful travel destinations across Africa  
+- 🌍 Connect culture, lifestyle, and global storytelling  
+- 💡 Inspire digital creativity and growth  
 
----
-
-## ✈️ Travel Highlights
-
-Explore curated travel content:
-
-- African cities & hidden gems  
-- Cultural experiences & guides  
-- Music events and festivals across the continent  
+We blend **music + travel + digital innovation** into one growing brand.
 
 ---
 
-## 📊 Repository Stats
+## 🎶 Music Projects
 
-![Visitors](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Visitors&query=count&url=https://api.github.com/repos/HennyMoneyAfric/hennymoneyafrica-/traffic/views)
+Latest Release:
 
----
+**Africa Unite**  
+Available on Spotify, Apple Music, YouTube & major platforms.
 
-## 🔥 Connect with HennyMoney Afric
-
-- [Instagram](#)  
-- [TikTok](#)  
-- [Spotify](#)  
-- [YouTube](#)  
-- Email: info@hennymoneyafric.com
+More projects coming soon.
 
 ---
 
-Built with ❤️ using **GitHub Pages** & automated workflows for AI review and branding.
+## ✈️ Travel & Culture
+
+Discover:
+
+- Hidden African destinations  
+- Cultural events & festivals  
+- Music tourism experiences  
+- Creative city guides  
+
+Africa through sound, movement, and experience.
+
+---
+
+## 🛠 Tech Stack
+
+Built with:
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- GitHub Pages  
+- Progressive Web App (PWA) features  
+- Automated GitHub Workflows  
+
+---
+
+## 📊 Project Status
+
+🚀 Active Development  
+🌍 Public Website Live  
+🔄 Weekly Branding Automation Enabled  
+
+---
+
+## 🔥 Connect With HennyMoney Afric
+
+- Instagram  
+- TikTok  
+- Spotify  
+- YouTube  
+- 📩 info@hennymoneyafric.com  
+
+---
+
+> Built with ❤️ to amplify African creativity worldwide.
