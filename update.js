@@ -1,29 +1,32 @@
-// Sample data arrays
+// ✅ Music Data
 const musicData = [
-  { title: "Africa Unite", platform: "Spotify", link: "https://open.spotify.com/" },
-  { title: "Africa Unite", platform: "Apple Music", link: "https://music.apple.com/" },
-  { title: "Africa Unite", platform: "YouTube", link: "https://www.youtube.com/" }
+  { title: "Africa Unite", platform: ["Spotify","Apple Music","YouTube"], link: ["https://open.spotify.com/","https://music.apple.com/","https://www.youtube.com/"] },
+  // Add more music projects here
 ];
 
-const tourData = [
-  { location: "Burkina Faso", highlight: "Cultural Festivals & Hidden Gems" },
-  { location: "Nigeria", highlight: "Music & City Tours" },
-  { location: "Ghana", highlight: "Beach & Cultural Experiences" },
-  { location: "South Africa", highlight: "Safari & City Tours" }
-];
-
-// Load music dynamically
-const musicList = document.getElementById("music-list");
-musicData.forEach(m => {
-  const div = document.createElement("div");
-  div.innerHTML = `<strong>${m.title}</strong> - <a href="${m.link}" target="_blank">${m.platform}</a>`;
-  musicList.appendChild(div);
+// Render Music Cards
+const musicContainer = document.getElementById("music-container");
+musicData.forEach(track => {
+  const card = document.createElement("div");
+  card.className = "music-card";
+  card.innerHTML = `<h3>${track.title}</h3>
+    ${track.platform.map((p,i)=>`<a href="${track.link[i]}" target="_blank">${p}</a>`).join(" | ")}`;
+  musicContainer.appendChild(card);
 });
 
-// Load tours dynamically
-const tourList = document.getElementById("tour-list");
-tourData.forEach(t => {
-  const div = document.createElement("div");
-  div.innerHTML = `<strong>${t.location}</strong>: ${t.highlight}`;
-  tourList.appendChild(div);
+// ✅ Tour Data
+const tourData = [
+  { country: "Burkina Faso", description: "Explore Ouagadougou & surrounding cultural hubs" },
+  { country: "Nigeria", description: "Discover Lagos, Abuja & vibrant music festivals" },
+  { country: "Ghana", description: "Experience Accra, Kumasi & coastal heritage" },
+  // Add more tours here
+];
+
+// Render Tour Cards
+const tourContainer = document.getElementById("tour-container");
+tourData.forEach(tour => {
+  const card = document.createElement("div");
+  card.className = "tour-card";
+  card.innerHTML = `<h3>${tour.country}</h3><p>${tour.description}</p>`;
+  tourContainer.appendChild(card);
 });
