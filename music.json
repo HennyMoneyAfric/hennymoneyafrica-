@@ -2,12 +2,23 @@
   {
     "title": "Africa Unite",
     "artist": "HennyMoney Afric",
+    "release_date": "2026-02-18",
     "cover": "hero.jpg",
-    "release_date": "2026-02-17",
     "platforms": {
-      "spotify": "https://open.spotify.com/",
-      "apple": "https://music.apple.com/",
-      "youtube": "https://www.youtube.com/"
+      "spotify": "https://open.spotify.com/track/example",
+      "apple": "https://music.apple.com/track/example",
+      "youtube": "https://youtube.com/watch?v=example"
+    }
+  },
+  {
+    "title": "Sunrise in Lagos",
+    "artist": "HennyMoney Afric",
+    "release_date": "2026-03-01",
+    "cover": "hero-travel.jpg",
+    "platforms": {
+      "spotify": "#",
+      "apple": "#",
+      "youtube": "#"
     }
   }
 ]
