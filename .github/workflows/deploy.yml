@@ -1,0 +1,35 @@
+name: Deploy HennyMoney Afric Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Checkout the repo
+    - name: Checkout repository
+      uses: actions/checkout@v6
+
+    # 2️⃣ Set up Node.js (required if you use scripts)
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    # 3️⃣ Run accessibility scanner (optional)
+    - name: Run accessibility scanner
+      uses: github/accessibility-scanner@v2.8.0
+      with:
+        path: "."                # scan all files in repo root
+        fail-on-violation: false # don’t fail deployment for minor issues
+
+    # 4️⃣ Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v6
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./          # root folder (index.html + assets)
