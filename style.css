@@ -5,14 +5,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 body {
   background-color: #fff8f0;
   color: #1a1a1a;
   line-height: 1.6;
 }
 
-/* Header & Hero */
+/* Header / Hero */
 header {
   background: url('hero.jpg') center/cover no-repeat;
   height: 90vh;
@@ -24,109 +23,156 @@ header {
   color: #fff;
   position: relative;
 }
-
 header h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-
 header p {
   font-size: 1.5rem;
   max-width: 700px;
+  margin-bottom: 2rem;
 }
-
-/* Buttons */
-button, .btn {
-  padding: 0.7rem 1.5rem;
-  border: none;
+header .btn {
+  padding: 0.8rem 2rem;
   background-color: #ff5722;
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
   border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-  text-decoration: none;
-  display: inline-block;
   margin: 0.5rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+header .btn:hover {
+  background-color: #e64a19;
+  transform: translateY(-3px);
 }
 
-button:hover, .btn:hover {
-  background-color: #e64a19;
-  transform: translateY(-2px);
+/* Section Titles */
+section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 /* Music Section */
-#music-section, #tour-section {
+#music-section {
   padding: 4rem 2rem;
-  text-align: center;
+  background-color: #fff;
 }
-
-#music-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #ff5722;
+.music-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
-
 .music-card {
   background: #fff3e0;
   padding: 1rem;
-  border-radius: 10px;
-  margin: 1rem;
-  display: inline-block;
+  border-radius: 12px;
   width: 260px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
-
 .music-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
-
 .music-card h3 {
-  margin-bottom: 1rem;
   color: #ff5722;
+  margin-bottom: 1rem;
+}
+.music-card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.music-card a:hover {
+  background-color: #e64a19;
 }
 
 /* Tour Section */
-#tour-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #4caf50;
+#tour-section {
+  padding: 4rem 2rem;
+  background-color: #fef9f4;
 }
-
+.tour-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 .tour-card {
   background: #e8f5e9;
   padding: 1rem;
-  border-radius: 10px;
-  margin: 1rem;
-  display: inline-block;
+  border-radius: 12px;
   width: 280px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
-
 .tour-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.tour-card h3 {
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+}
+.tour-card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.tour-card a:hover {
+  background-color: #388e3c;
 }
 
-.tour-card h3 {
-  margin-bottom: 0.5rem;
-  color: #4caf50;
+/* About Section */
+#about-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff8f0;
+}
+#about-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+#contact-section a {
+  color: #ff5722;
+  text-decoration: none;
+}
+#contact-section a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
-  text-align: center;
   padding: 2rem;
-  background-color: #fff3e0;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
 }
-footer a {
-  margin: 0 0.5rem;
-  color: #ff5722;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .music-container, .tour-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
