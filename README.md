@@ -5,7 +5,7 @@
 Welcome to **HennyMoney Afric** — a creative hub celebrating African music, travel experiences, and cultural innovation.
 
 🌍 **Live Website:**  
-👉 https://HennyMoneyAfric.github.io/hennymoneyafrica-/
+👉 https://hennymoneyafric.github.io/hennymoneyafrica-/
 
 ---
 
@@ -73,7 +73,7 @@ Built with:
 - TikTok  
 - Spotify  
 - YouTube  
-- 📩 info@hennymoneyafric.com  
+- 📩 Contact: [hennymoneyafric@outlook.com](mailto:hennymoneyafric@outlook.com)  
 
 ---
 
