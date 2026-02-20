@@ -1,14 +1,12 @@
-{
-  "songs": [
-    {
-      "title": "Africa Unite",
-      "artist": "HennyMoney Afric",
-      "link": "https://youtube.com/@hennymoneyafric?si=CkSzSt9fnxB-d075"
-    },
-    {
-      "title": "The Sound of a New Generation",
-      "artist": "HennyMoney Afric",
-      "link": "https://audiomack.com/hennymoney-afric"
-    }
-  ]
-}
+[
+  {
+    "title": "Africa Unite",
+    "artist": "HennyMoney Afric",
+    "link": "https://youtube.com/@hennymoneyafric?si=CkSzSt9fnxB-d075"
+  },
+  {
+    "title": "The Sound of a New Generation",
+    "artist": "HennyMoney Afric",
+    "link": "https://audiomack.com/hennymoney-afric"
+  }
+]
