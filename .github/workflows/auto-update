@@ -1,0 +1,42 @@
+name: Weekly AI Update
+
+on:
+  schedule:
+    # Runs every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # allows manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      # Step 2: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # Step 3: Install dependencies (if needed)
+      - name: Install dependencies
+        run: |
+          npm install
+
+      # Step 4: Run AI update script
+      - name: Run update.js
+        run: node update.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      # Step 5: Commit changes if any
+      - name: Commit & push updates
+        run: |
+          git config --global user.name "HennyMoney Afric Bot"
+          git config --global user.email "hennymoneyafric@outlook.com"
+          git add music.json tours.json
+          git commit -m "Weekly AI auto-update for music & tours" || echo "No changes"
+          git push origin main
