@@ -1,0 +1,34 @@
+name: Auto Update Content
+
+on:
+  schedule:
+    - cron: '0 10 * * 0' # Runs every Sunday at 10:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update_content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run AI Update Script
+        run: node ai-update.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "HennyMoney Afric"
+          git config user.email "hennymoneyafric@outlook.com"
+          git add music.json tours.json
+          git commit -m "Weekly content update via Meta AI" || echo "No changes"
+          git push
