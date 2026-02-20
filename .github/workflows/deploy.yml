@@ -1,35 +1,91 @@
-name: Deploy HennyMoney Afric Website
+import fs from 'fs';
+import OpenAI from 'openai';
 
-on:
-  push:
-    branches:
-      - main
+// Initialize OpenAI with API key from GitHub secrets
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY
+});
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+// Files
+const MUSIC_FILE = './music.json';
+const TOURS_FILE = './tours.json';
 
-    steps:
-    # 1️⃣ Checkout the repo
-    - name: Checkout repository
-      uses: actions/checkout@v6
+// Helper: read JSON file
+function readJSON(filePath) {
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  }
+  return [];
+}
 
-    # 2️⃣ Set up Node.js (required if you use scripts)
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
+// Helper: write JSON file
+function writeJSON(filePath, data) {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+}
 
-    # 3️⃣ Run accessibility scanner (optional)
-    - name: Run accessibility scanner
-      uses: github/accessibility-scanner@v2.8.0
-      with:
-        path: "."                # scan all files in repo root
-        fail-on-violation: false # don’t fail deployment for minor issues
+// Generate new music entries
+async function generateMusic() {
+  const existingMusic = readJSON(MUSIC_FILE);
 
-    # 4️⃣ Deploy to GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v6
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./          # root folder (index.html + assets)
+  const prompt = `
+Generate 2 new African music releases for HennyMoney Afric.
+Each entry should include: title, artist, description, and streaming links (YouTube/Facebook).
+Return output as valid JSON array.
+`;
+
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o-mini',
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.8
+  });
+
+  let newMusic = [];
+  try {
+    newMusic = JSON.parse(response.choices[0].message.content);
+  } catch (err) {
+    console.error('Error parsing music JSON:', err);
+  }
+
+  const updatedMusic = [...newMusic, ...existingMusic].slice(0, 10); // keep max 10
+  writeJSON(MUSIC_FILE, updatedMusic);
+  console.log('✅ Music updated!');
+}
+
+// Generate new tour entries
+async function generateTours() {
+  const existingTours = readJSON(TOURS_FILE);
+
+  const prompt = `
+Generate 2 new African tour experiences for HennyMoney Afric.
+Include: title, country, short description, booking link (Calendly or WhatsApp).
+Return output as valid JSON array.
+`;
+
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o-mini',
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.8
+  });
+
+  let newTours = [];
+  try {
+    newTours = JSON.parse(response.choices[0].message.content);
+  } catch (err) {
+    console.error('Error parsing tours JSON:', err);
+  }
+
+  const updatedTours = [...newTours, ...existingTours].slice(0, 10); // keep max 10
+  writeJSON(TOURS_FILE, updatedTours);
+  console.log('✅ Tours updated!');
+}
+
+// Run updates
+(async function runUpdates() {
+  try {
+    await generateMusic();
+    await generateTours();
+    console.log('🎉 Weekly AI update completed successfully!');
+  } catch (err) {
+    console.error('Error during AI update:', err);
+  }
+})();
