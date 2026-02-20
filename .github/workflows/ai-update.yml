@@ -1,15 +1,12 @@
 name: AI Weekly Update
 
 on:
-  workflow_dispatch: # Manual trigger
-  schedule:           # Optional: automatic weekly run
-    - cron: '0 12 * * 1' # Every Monday at 12:00 UTC
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -17,10 +14,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install openai
+        run: npm install
+        working-directory: .
 
-      - name: Run AI update script
+      - name: Run AI Update Script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node ai-update.js
