@@ -1,38 +1,91 @@
 import fs from 'fs';
 import OpenAI from 'openai';
 
-const client = new OpenAI({
+// Initialize OpenAI with API key from GitHub secrets
+const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-// Load existing JSON files
-const musicData = JSON.parse(fs.readFileSync('music.json'));
-const toursData = JSON.parse(fs.readFileSync('tours.json'));
+// JSON files
+const MUSIC_FILE = './music.json';
+const TOURS_FILE = './tours.json';
 
-async function updateMusic() {
-  const prompt = `Generate 3 new African music releases including title, artist, and Spotify, Audiomax Music, YouTube links in JSON array format.`;
-  const response = await client.chat.completions.create({
-    model: "gpt-4.1-mini",
-    messages: [{ role: "user", content: prompt }]
-  });
-  const newSongs = JSON.parse(response.choices[0].message.content);
-  const combined = [...musicData, ...newSongs];
-  fs.writeFileSync('music.json', JSON.stringify(combined, null, 2));
+// Helper: read JSON file safely
+function readJSON(filePath) {
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  }
+  return [];
 }
 
-async function updateTours() {
-  const prompt = `Generate 2 new upcoming African tours with name, duration, and Calendly booking link in JSON array format.`;
-  const response = await client.chat.completions.create({
-    model: "gpt-4.1-mini",
-    messages: [{ role: "user", content: prompt }]
-  });
-  const newTours = JSON.parse(response.choices[0].message.content);
-  const combined = [...toursData, ...newTours];
-  fs.writeFileSync('tours.json', JSON.stringify(combined, null, 2));
+// Helper: write JSON file
+function writeJSON(filePath, data) {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
-(async () => {
-  await updateMusic();
-  await updateTours();
-  console.log("Meta AI content update completed!");
+// Generate new music entries
+async function generateMusic() {
+  const existingMusic = readJSON(MUSIC_FILE);
+
+  const prompt = `
+Generate 2 new African music releases for HennyMoney Afric.
+Each entry should include: title, artist, description, and streaming links (YouTube/Facebook).
+Return output as valid JSON array.
+`;
+
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o-mini',
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.8
+  });
+
+  let newMusic = [];
+  try {
+    newMusic = JSON.parse(response.choices[0].message.content);
+  } catch (err) {
+    console.error('❌ Error parsing music JSON:', err);
+  }
+
+  const updatedMusic = [...newMusic, ...existingMusic].slice(0, 10);
+  writeJSON(MUSIC_FILE, updatedMusic);
+  console.log('✅ Music updated!');
+}
+
+// Generate new tour entries
+async function generateTours() {
+  const existingTours = readJSON(TOURS_FILE);
+
+  const prompt = `
+Generate 2 new African tour experiences for HennyMoney Afric.
+Include: title, country, short description, booking link (Calendly or WhatsApp).
+Return output as valid JSON array.
+`;
+
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o-mini',
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.8
+  });
+
+  let newTours = [];
+  try {
+    newTours = JSON.parse(response.choices[0].message.content);
+  } catch (err) {
+    console.error('❌ Error parsing tours JSON:', err);
+  }
+
+  const updatedTours = [...newTours, ...existingTours].slice(0, 10);
+  writeJSON(TOURS_FILE, updatedTours);
+  console.log('✅ Tours updated!');
+}
+
+// Run updates
+(async function runUpdates() {
+  try {
+    await generateMusic();
+    await generateTours();
+    console.log('🎉 Weekly AI update completed successfully!');
+  } catch (err) {
+    console.error('❌ Error during AI update:', err);
+  }
 })();
