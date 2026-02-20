@@ -8,86 +8,48 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header / Hero -->
-  <header>
-    <h1>HennyMoney Afric</h1>
-    <p>Music • Culture • Travel • Digital Creativity</p>
-    <a href="#music-section" class="btn">Listen to Our Music</a>
-    <a href="#tour-section" class="btn">Explore Tours</a>
-  </header>
 
-  <!-- Music Section -->
-  <section id="music-section">
-    <h2>Music Releases</h2>
-    <div id="music-container"></div>
-  </section>
+<!-- Header / Hero -->
+<header>
+  <h1>HennyMoney Afric</h1>
+  <p>Music • Culture • Travel • Digital Creativity • Web Development</p>
+  <a href="#music-section" class="btn">Listen to Our Music</a>
+  <a href="#tour-section" class="btn">Explore Tours</a>
+</header>
 
-  <!-- Tours Section -->
-  <section id="tour-section">
-    <h2>Tours & Experiences</h2>
-    <div id="tour-container"></div>
-  </section>
+<!-- Music Section -->
+<section id="music-section">
+  <h2>Music Releases</h2>
+  <div id="music-container">
+    <!-- Music cards will load here dynamically -->
+  </div>
+</section>
 
-  <!-- Contact & Socials -->
-  <section id="connect-section">
-    <h2>Connect With Us</h2>
-    <p>Instagram | Facebook | YouTube | WhatsApp</p>
-    <ul>
-      <li><a href="https://www.instagram.com/hennymoneyafricempire" target="_blank">Instagram</a></li>
-      <li><a href="https://www.facebook.com/hennymoneyafrica" target="_blank">Facebook</a></li>
-      <li><a href="https://youtube.com/@hennymoneyafric?si=CkSzSt9fnxB-d075" target="_blank">YouTube</a></li>
-      <li><a href="https://wa.me/22654852525" target="_blank">WhatsApp</a></li>
-    </ul>
-  </section>
+<!-- Tours Section -->
+<section id="tour-section">
+  <h2>Tours & Experiences</h2>
+  <div id="tour-container">
+    <!-- Tour cards will load here dynamically -->
+  </div>
+</section>
 
-  <!-- Scripts -->
-  <script>
-    // Load Music JSON dynamically
-    async function loadMusic() {
-      const res = await fetch('music.json');
-      const musicData = await res.json();
-      const container = document.getElementById('music-container');
-      container.innerHTML = '';
+<!-- Contact Section -->
+<section id="contact-section">
+  <h2>Connect With HennyMoney Afric</h2>
+  <p>Email: <a href="mailto:hennymoneyafric@outlook.com">hennymoneyafric@outlook.com</a></p>
+  <p>Facebook: <a href="https://www.facebook.com/hennymoneyafrica" target="_blank">Follow</a></p>
+  <p>Instagram: <a href="https://www.instagram.com/hennymoneyafricempire" target="_blank">Follow</a></p>
+  <p>YouTube: <a href="https://youtube.com/@hennymoneyafric?si=CkSzSt9fnxB-d075" target="_blank">Subscribe</a></p>
+  <p>WhatsApp: <a href="https://wa.me/22654852525" target="_blank">Chat</a></p>
+</section>
 
-      musicData.forEach(music => {
-        const card = document.createElement('div');
-        card.className = 'music-card';
-        card.innerHTML = `
-          <h3>${music.title}</h3>
-          <p>${music.description}</p>
-          <p>Artist: ${music.artist}</p>
-          <p>
-            <a href="${music.links.YouTube}" target="_blank">YouTube</a> |
-            <a href="${music.links.Facebook}" target="_blank">Facebook</a>
-          </p>
-        `;
-        container.appendChild(card);
-      });
-    }
+<!-- Footer -->
+<footer>
+  <p>© 2026 HennyMoney Afric. All Rights Reserved.</p>
+</footer>
 
-    // Load Tours JSON dynamically
-    async function loadTours() {
-      const res = await fetch('tours.json');
-      const toursData = await res.json();
-      const container = document.getElementById('tour-container');
-      container.innerHTML = '';
+<!-- Scripts -->
+<script src="update.js"></script>
 
-      toursData.forEach(tour => {
-        const card = document.createElement('div');
-        card.className = 'tour-card';
-        card.innerHTML = `
-          <h3>${tour.title}</h3>
-          <p>${tour.description}</p>
-          <p>Country: ${tour.country}</p>
-          <a href="${tour.booking}" target="_blank" class="btn">Book Now</a>
-        `;
-        container.appendChild(card);
-      });
-    }
-
-    // Initialize
-    loadMusic();
-    loadTours();
-  </script>
 </body>
 </html>
