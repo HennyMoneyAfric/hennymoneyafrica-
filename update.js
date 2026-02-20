@@ -1,38 +1,54 @@
-// update.js - dynamically load music and tours
-document.addEventListener("DOMContentLoaded", function() {
-  // Load Music
-  fetch('music.json')
-    .then(response => response.json())
-    .then(data => {
-      const musicContainer = document.getElementById('music-container');
-      data.songs.forEach(song => {
-        const card = document.createElement('div');
-        card.className = 'music-card';
-        card.innerHTML = `
-          <h3>${song.title}</h3>
-          <p>${song.artist}</p>
-          <a href="${song.link}" target="_blank" class="btn">Listen Now</a>
-        `;
-        musicContainer.appendChild(card);
-      });
-    })
-    .catch(err => console.error('Error loading music:', err));
+// update.js
 
-  // Load Tours
-  fetch('tours.json')
-    .then(response => response.json())
-    .then(data => {
-      const tourContainer = document.getElementById('tour-container');
-      data.tours.forEach(tour => {
-        const card = document.createElement('div');
-        card.className = 'tour-card';
-        card.innerHTML = `
-          <h3>${tour.name}</h3>
-          <p>${tour.description}</p>
-          <a href="${tour.link}" target="_blank" class="btn">Book Now</a>
-        `;
-        tourContainer.appendChild(card);
-      });
-    })
-    .catch(err => console.error('Error loading tours:', err));
+// Load Music dynamically
+async function loadMusic() {
+  try {
+    const res = await fetch('music.json');
+    const musicData = await res.json();
+    const musicContainer = document.getElementById('music-container');
+    musicContainer.innerHTML = '';
+
+    musicData.forEach(song => {
+      const card = document.createElement('div');
+      card.className = 'music-card';
+      card.innerHTML = `
+        <h3>${song.title}</h3>
+        <p>${song.artist}</p>
+        <a class="btn" href="${song.link}" target="_blank">Listen</a>
+      `;
+      musicContainer.appendChild(card);
+    });
+  } catch (err) {
+    console.error('Error loading music:', err);
+  }
+}
+
+// Load Tours dynamically
+async function loadTours() {
+  try {
+    const res = await fetch('tours.json');
+    const toursData = await res.json();
+    const tourContainer = document.getElementById('tour-container');
+    tourContainer.innerHTML = '';
+
+    toursData.forEach(tour => {
+      const card = document.createElement('div');
+      card.className = 'tour-card';
+      card.innerHTML = `
+        <h3>${tour.title}</h3>
+        <p>Location: ${tour.location}</p>
+        <p>Dates: ${tour.dates}</p>
+        <a class="btn" href="${tour.booking}" target="_blank">Book Now</a>
+      `;
+      tourContainer.appendChild(card);
+    });
+  } catch (err) {
+    console.error('Error loading tours:', err);
+  }
+}
+
+// Run on page load
+document.addEventListener('DOMContentLoaded', () => {
+  loadMusic();
+  loadTours();
 });
