@@ -1,0 +1,35 @@
+name: AI Weekly Social Post
+
+on:
+  schedule:
+    - cron: '0 14 * * 0'  # every Sunday 14:00 UTC
+  workflow_dispatch:
+
+jobs:
+  social-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate Social Media Post
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node ai-social.js
+
+      - name: Commit Generated Posts
+        run: |
+          git config --global user.name "HennyMoneyAfric AI"
+          git config --global user.email "hennymoneyafric@outlook.com"
+          git add social-post.json
+          git commit -m "Weekly AI social post update" || echo "No changes"
+          git push
