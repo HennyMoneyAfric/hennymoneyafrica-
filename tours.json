@@ -1,19 +1,26 @@
-{
-  "tours": [
-    {
-      "name": "West Africa Tour",
-      "description": "Explore the cultural highlights of West Africa.",
-      "link": "https://calendly.com/hennymoneyafric/west-africa-tour"
-    },
-    {
-      "name": "Burkina Faso Tour",
-      "description": "Discover the beauty and culture of Burkina Faso.",
-      "link": "https://calendly.com/hennymoneyafric/burkina-faso-tour"
-    },
-    {
-      "name": "Multi-Day Africa Cultural Tour",
-      "description": "Immerse in African heritage and music festivals.",
-      "link": "https://calendly.com/hennymoneyafric/multi-day-africa-cultural-tour"
-    }
-  ]
-}
+[
+  {
+    "title": "West Africa Cultural Tour",
+    "location": "Burkina Faso & Nigeria",
+    "dates": "March 2026",
+    "booking": "https://calendly.com/hennymoneyafric/west-africa-tour"
+  },
+  {
+    "title": "Multi-Day Africa Cultural Tour",
+    "location": "West Africa & Beyond",
+    "dates": "April 2026",
+    "booking": "https://calendly.com/hennymoneyafric/multi-day-africa-cultural-tour"
+  },
+  {
+    "title": "Burkina Faso Exclusive Tour",
+    "location": "Ouagadougou & Bobo-Dioulasso",
+    "dates": "May 2026",
+    "booking": "https://calendly.com/hennymoneyafric/burkina-faso-tour"
+  },
+  {
+    "title": "Music & Travel Consultation",
+    "location": "Virtual",
+    "dates": "All Year",
+    "booking": "https://calendly.com/hennymoneyafric/music-travel-consultation"
+  }
+]
