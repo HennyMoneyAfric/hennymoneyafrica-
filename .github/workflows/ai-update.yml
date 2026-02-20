@@ -23,5 +23,5 @@ jobs:
 
       - name: Run AI Script
         env:
-          OPENAI_API_KEY: ${{ ‎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 }}
+          OPENAI_API_KEY: ${{ ‎ }}
         run: node ai-update.js
