@@ -8,18 +8,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout your repository
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      # 2️⃣ Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
-        working-directory: .
+      # 3️⃣ Install OpenAI package globally (no package.json needed)
+      - name: Install OpenAI globally
+        run: npm install -g openai
 
+      # 4️⃣ Run your AI update script
       - name: Run AI Update Script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
