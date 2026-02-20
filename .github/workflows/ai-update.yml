@@ -1,0 +1,27 @@
+name: AI Weekly Update
+
+on:
+  schedule:
+    - cron: '0 14 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install OpenAI
+        run: npm install openai
+
+      - name: Run AI Script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node ai-update.js
