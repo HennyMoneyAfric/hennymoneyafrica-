@@ -1,8 +1,6 @@
 name: AI Weekly Update
 
 on:
-  schedule:
-    - cron: "0 0 * * 1"  # Runs every Monday
   workflow_dispatch:
 
 jobs:
@@ -10,25 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '24'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Run AI update
+      - name: Run AI Update
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node ai-update.js
-
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add music.json tours.json
-          git commit -m "AI weekly update" || exit 0
-          git push
+        run: npm start
