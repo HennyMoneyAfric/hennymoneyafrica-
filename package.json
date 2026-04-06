@@ -1,15 +1,1 @@
-{
-"name": "hennymoneyafric",
-"version": "1.0.0",
-"description": "HennyMoney Afric website and AI automation",
-"main": "ai-update.js",
-"type": "module",
-"scripts": {
-"start": "node ai-update.js"
-},
-"author": "HennyMoney Afric",
-"license": "MIT",
-"dependencies": {
-"openai": "^5.2.0"
-}
-}
+{"name":"hennymoneyafric","version":"1.0.0","description":"HennyMoney Afric website and AI automation","main":"ai-update.js","type":"module","scripts":{"start":"node ai-update.js"},"author":"HennyMoney Afric","license":"MIT","dependencies":{"@vercel/speed-insights":"^2.0.0","openai":"^5.2.0"}}
