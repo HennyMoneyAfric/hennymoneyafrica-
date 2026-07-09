@@ -1,74 +1,68 @@
-🎵🌍 HennyMoney Afric  
-Music • Culture • Travel • Digital Creativity • Web Development
+# 🎵🌍 HennyMoney Afric
 
-Welcome to **HennyMoney Afric** — a creative hub celebrating African music, travel experiences, and cultural innovation.
+**Music • Culture • Travel • Digital Creativity**
 
-🌍 **Live Website:**  
-👉 [https://hennymoneyafric.github.io/hennymoneyafrica-/](https://hennymoneyafric.github.io/hennymoneyafrica-/)
+Welcome to HennyMoney Afric — a growing African creative brand focused on music, culture, tourism, and digital innovation.
 
----
+## 🌍 Live Website
+
+https://hennymoneyafric.github.io/hennymoneyafrica-/
 
 ## 🚀 Vision
+
 HennyMoney Afric exists to:
 
-🎶 Promote African music and original releases  
-✈️ Showcase powerful travel destinations across Africa  
-🌍 Connect culture, lifestyle, and global storytelling  
-💡 Inspire digital creativity and growth  
+- 🎶 Promote African music and original releases
+- 🌍 Celebrate African culture and creativity
+- ✈️ Showcase tourism opportunities across Africa
+- 💡 Inspire digital growth and innovation
 
-We blend **music + travel + digital innovation** into one growing brand.
+## 🎵 Music
 
----
+Featured releases:
 
-## 🎶 Music Projects
-**Latest Release:**  
+- Africa Unite
+- God Bless Africa
 
-**Africa Unite**  
-Available on:  
-- [Spotify](https://open.spotify.com/)  
-- [Apple Music](https://music.apple.com/)  
-- [YouTube](https://www.youtube.com/)  
+Available on:
 
-*More projects coming soon…*
+- Spotify
+- Audiomack
+- YouTube Music
 
----
+## 🌍 Explore
 
-## ✈️ Travel & Culture
-Discover:  
+The website includes:
 
-- Hidden African destinations  
-- Cultural events & festivals  
-- Music tourism experiences  
-- Creative city guides  
+- Music
+- Travel Articles
+- African Culture
+- Creator Resources
+- Digital Innovation
 
-Experience Africa through **sound, movement, and adventure**.
+## 💼 Services
 
----
+Available for:
 
-## 🛠 Tech Stack
-Built with:
+- Music Promotion
+- Fashion Design
+- Social Media Promotion
+- Digital Branding
+- Partnerships & Collaborations
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- GitHub Pages  
-- Progressive Web App (PWA) features  
-- Automated GitHub Workflows  
+## 📱 Connect
 
----
+- Instagram: @hennymoneyafrica
+- TikTok: @hennymoneyafrica
+- YouTube: HennyMoney Afric
+- Linktree: https://linktr.ee/HennyMoneyAfric
 
-## 📊 Project Status
-- 🚀 Active Development  
-- 🌍 Public Website Live  
-- 🔄 Weekly Branding Automation Enabled  
+## 📧 Contact
 
----
+Email: hennymoneyafric@gmail.com
 
-## 🔥 Connect With HennyMoney Afric
-[Instagram](https://www.instagram.com/) | [TikTok](https://www.tiktok.com/) | [Spotify](https://open.spotify.com/) | [YouTube](https://www.youtube.com/)  
-
-📩 Contact: [hennymoneyafric@outlook.com](mailto:hennymoneyafric@outlook.com)
+WhatsApp: +226 54 85 25 25
 
 ---
 
-**Built with ❤️ to amplify African creativity worldwide.**
+Built with ❤️ to promote African creativity worldwide.
