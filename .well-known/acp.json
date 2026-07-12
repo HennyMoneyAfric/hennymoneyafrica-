@@ -1,0 +1,13 @@
+{
+  "protocol": "acp",
+  "version": "1.0",
+  "name": "HennyMoneyAfric",
+  "description": "AI access for HennyMoneyAfric music, culture, travel and creator resources.",
+  "api_base_url": "https://hennymoneyafric.indevs.in",
+  "capabilities": {
+    "content": true,
+    "music": true,
+    "travel": true,
+    "creator_resources": true
+  }
+}
