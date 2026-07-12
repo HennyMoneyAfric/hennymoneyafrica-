@@ -1,24 +1,32 @@
 # auth.md
 
-## HennyMoneyAfric Agent Authentication
-
-## Agent Access
-
-HennyMoneyAfric provides public access to:
-
-- Music information
-- African culture content
-- Travel resources
-- Digital creator services
-
 ## Agent Registration
 
-Agents can request access for partnerships or integrations.
+Agents may access public content without authentication.
 
-Contact:
+For partnership, integration, or commercial access requests:
 
-Email:
+- Email: hennymoneyafric@gmail.com
+- Website: https://hennymoneyafric.indevs.in
+
+## Registration Process
+
+1. Send an email with your agent name.
+2. Describe intended use.
+3. Include contact information.
+4. Await approval.
+
+## Supported Identity Types
+
+- Email
+- Domain Ownership
+
+## Credential Types
+
+- API Key
+- OAuth 2.0
+
+## Revocation
+
+Access may be revoked by contacting:
 hennymoneyafric@gmail.com
-
-Website:
-https://hennymoneyafric.indevs.in/
