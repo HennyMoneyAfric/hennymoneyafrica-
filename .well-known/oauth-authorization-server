@@ -1,0 +1,6 @@
+{
+  "issuer": "https://hennymoneyafric.indevs.in",
+  "authorization_endpoint": "https://hennymoneyafric.indevs.in",
+  "token_endpoint": "https://hennymoneyafric.indevs.in",
+  "grant_types_supported": ["client_credentials"]
+}
