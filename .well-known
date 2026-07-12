@@ -1,11 +1,19 @@
-.well-known/
-
-├── agent-skills/
-│   └── index.json
-
-├── mcp/
-│   └── server-card.json
-
-├── api-catalog
-
-└── auth.md
+{
+"$schema":"https://agentskills.io/schema.json",
+"skills":[
+{
+"name":"hennymoneyafric-music",
+"type":"information",
+"description":"Provides information about HennyMoneyAfric music, Afrobeat songs and African culture projects.",
+"url":"https://hennymoneyafric.indevs.in/music.html",
+"sha256":""
+},
+{
+"name":"hennymoneyafric-tourism",
+"type":"information",
+"description":"Provides African travel and cultural information.",
+"url":"https://hennymoneyafric.indevs.in/",
+"sha256":""
+}
+]
+}
