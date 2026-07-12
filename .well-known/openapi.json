@@ -1,0 +1,9 @@
+{
+ "openapi":"3.0.0",
+ "info":{
+   "title":"HennyMoneyAfric API",
+   "version":"1.0.0",
+   "description":"Public information API for music, culture and digital creativity"
+ },
+ "paths":{}
+}
