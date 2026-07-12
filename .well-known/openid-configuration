@@ -1,0 +1,12 @@
+{
+  "issuer": "https://hennymoneyafric.indevs.in",
+  "authorization_endpoint": "https://hennymoneyafric.indevs.in/auth",
+  "token_endpoint": "https://hennymoneyafric.indevs.in/token",
+  "jwks_uri": "https://hennymoneyafric.indevs.in/.well-known/jwks.json",
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "response_types_supported": [
+    "code"
+  ]
+}
