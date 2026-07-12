@@ -1,9 +1,0 @@
-.well-known/
-
-├── agent-skills/
-│   └── index.json
-
-├── mcp/
-│   └── server-card.json
-
-└── api-catalog
