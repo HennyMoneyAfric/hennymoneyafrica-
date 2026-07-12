@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agentskills.io/schema.json",
+  "skills": [
+    {
+      "name": "HennyMoneyAfric Content",
+      "type": "website",
+      "description": "Music, culture, travel and digital creator resources from HennyMoneyAfric.",
+      "url": "https://hennymoneyafric.indevs.in/",
+      "sha256": ""
+    }
+  ]
+}
