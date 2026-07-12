@@ -2,12 +2,23 @@
 
 ## HennyMoneyAfric Agent Authentication
 
-HennyMoneyAfric provides public access to music, culture, travel, and digital creator content.
-
 ## Agent Access
 
-This website provides public information access.
+HennyMoneyAfric provides public access to:
 
-For partnerships and collaborations:
+- Music information
+- African culture content
+- Travel resources
+- Digital creator services
 
-Email: hennymoneyafric@gmail.com
+## Agent Registration
+
+Agents can request access for partnerships or integrations.
+
+Contact:
+
+Email:
+hennymoneyafric@gmail.com
+
+Website:
+https://hennymoneyafric.indevs.in/
