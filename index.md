@@ -1,23 +1,31 @@
 # HennyMoneyAfric
 
-HennyMoneyAfric is an African music and culture brand from Burkina Faso.
+Music • Culture • Travel • Digital Creativity
+
+## About
+
+HennyMoneyAfric is an African creative platform promoting:
+
+- Afrobeat music
+- African culture
+- Tourism
+- Digital creativity
 
 ## Music
+
+Featured songs:
 
 - Africa Unite
 - God Bless Africa
 
 ## Services
 
-- Afrobeat music
-- African culture promotion
-- Tourism information
-- Digital creator services
-
-## Official Website
-
-https://hennymoneyafric.indevs.in/
+- Music promotion
+- Digital branding
+- Fashion design
+- Social media promotion
 
 ## Contact
 
-For collaborations and bookings, contact HennyMoneyAfric.
+Email:
+hennymoneyafric@gmail.com
