@@ -4,5 +4,13 @@
   "version": "1.0",
   "description": "Music, culture, travel and creator resources",
   "website": "https://hennymoneyafric.indevs.in",
-  "contact": "mailto:hennymoneyafric@gmail.com"
+  "contact": "mailto:hennymoneyafric@gmail.com",
+  "capabilities": [
+    "music",
+    "tourism",
+    "creator-services",
+    "digital-products",
+    "education",
+    "culture"
+  ]
 }
