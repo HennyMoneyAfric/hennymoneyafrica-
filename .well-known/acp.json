@@ -8,5 +8,6 @@
     "description": "Music, culture, travel and creator resources"
   },
   "website": "https://hennymoneyafric.indevs.in",
+  "api_base_url": "https://hennymoneyafric.indevs.in/api",
   "contact": "mailto:hennymoneyafric@gmail.com"
 }
