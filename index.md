@@ -1,31 +1,35 @@
 # HennyMoneyAfric
 
-Music • Culture • Travel • Digital Creativity
+## African Music | Culture | Tourism | Digital Creator
 
-## About
+Welcome to HennyMoneyAfric.
 
-HennyMoneyAfric is an African creative platform promoting:
+HennyMoneyAfric is an African creative platform focused on:
 
 - Afrobeat music
 - African culture
 - Tourism
-- Digital creativity
+- Digital creator resources
+- Entertainment
 
 ## Music
 
-Featured songs:
+Listen to:
 
 - Africa Unite
 - God Bless Africa
 
 ## Services
 
-- Music promotion
-- Digital branding
-- Fashion design
-- Social media promotion
+- Music collaborations
+- Creator partnerships
+- African culture promotion
+- Digital projects
 
 ## Contact
 
 Email:
 hennymoneyafric@gmail.com
+
+Website:
+https://hennymoneyafric.indevs.in
