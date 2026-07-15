@@ -1,4 +1,4 @@
-Auth.md
+# Auth.md
 
 HennyMoneyAfric Agent Authentication & Registration
 
