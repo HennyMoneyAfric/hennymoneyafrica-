@@ -1,7 +1,9 @@
 {
- "resource":"https://hennymoneyafric.indevs.in",
- "authorization_servers":[],
- "scopes_supported":[
- "public_content"
- ]
+  "resource": "https://hennymoneyafric.indevs.in",
+  "authorization_servers": [
+    "https://hennymoneyafric.indevs.in"
+  ],
+  "scopes_supported": [
+    "public_content"
+  ]
 }
