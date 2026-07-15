@@ -1,6 +1,24 @@
-{
+l{
   "issuer": "https://hennymoneyafric.indevs.in",
-  "authorization_endpoint": "https://hennymoneyafric.indevs.in",
-  "token_endpoint": "https://hennymoneyafric.indevs.in",
-  "grant_types_supported": ["client_credentials"]
+
+  "authorization_endpoint": "https://hennymoneyafric.indevs.in/auth",
+
+  "token_endpoint": "https://hennymoneyafric.indevs.in/token",
+
+  "registration_endpoint": "https://hennymoneyafric.indevs.in/register",
+
+  "agent_auth": {
+    "register_uri": "https://hennymoneyafric.indevs.in/register",
+    "supported_identity_types": [
+      "oidc",
+      "service_account",
+      "mcp_agent"
+    ],
+    "supported_credential_types": [
+      "bearer_token",
+      "oauth_client"
+    ],
+    "claims_uri": "https://hennymoneyafric.indevs.in/auth.md",
+    "revocation_uri": "https://hennymoneyafric.indevs.in/auth.md"
+  }
 }
