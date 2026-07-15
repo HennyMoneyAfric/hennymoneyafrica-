@@ -17,9 +17,5 @@
     ],
     "claims_uri": "https://hennymoneyafric.indevs.in/auth.md",
     "revocation_uri": "https://hennymoneyafric.indevs.in/auth.md"
-  },
-
-  "protected_resources": [
-    "https://hennymoneyafric.indevs.in"
-  ]
+  }
 }
