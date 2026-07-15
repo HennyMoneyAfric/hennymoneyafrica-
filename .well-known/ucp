@@ -1,5 +1,8 @@
 {
+  "ucp": "1.0",
   "name": "HennyMoneyAfric",
   "version": "1.0",
-  "description": "Music, culture and travel resources"
+  "description": "Music, culture, travel and creator resources",
+  "website": "https://hennymoneyafric.indevs.in",
+  "contact": "mailto:hennymoneyafric@gmail.com"
 }
