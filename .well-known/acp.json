@@ -9,5 +9,11 @@
   },
   "website": "https://hennymoneyafric.indevs.in",
   "api_base_url": "https://hennymoneyafric.indevs.in/api",
-  "contact": "mailto:hennymoneyafric@gmail.com"
+  "contact": "mailto:hennymoneyafric@gmail.com",
+  "transports": [
+    {
+      "type": "https",
+      "url": "https://hennymoneyafric.indevs.in/api"
+    }
+  ]
 }
