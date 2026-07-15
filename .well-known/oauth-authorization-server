@@ -1,10 +1,7 @@
-l{
+{
   "issuer": "https://hennymoneyafric.indevs.in",
-
   "authorization_endpoint": "https://hennymoneyafric.indevs.in/auth",
-
   "token_endpoint": "https://hennymoneyafric.indevs.in/token",
-
   "registration_endpoint": "https://hennymoneyafric.indevs.in/register",
 
   "agent_auth": {
@@ -20,5 +17,9 @@ l{
     ],
     "claims_uri": "https://hennymoneyafric.indevs.in/auth.md",
     "revocation_uri": "https://hennymoneyafric.indevs.in/auth.md"
-  }
+  },
+
+  "protected_resources": [
+    "https://hennymoneyafric.indevs.in"
+  ]
 }
