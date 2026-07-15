@@ -1,4 +1,4 @@
-auth.md
+Auth.md
 
 HennyMoneyAfric Agent Authentication & Registration
 
@@ -12,76 +12,68 @@ Last Updated: July 2026
 
 Overview
 
-HennyMoneyAfric provides public access to music, culture, tourism, educational resources, digital creator content, and related services.
+HennyMoneyAfric provides public access to music, culture, tourism, educational resources, digital creator content, and digital services.
 
-AI agents, search agents, research agents, and assistant platforms may access publicly available content according to robots.txt permissions and applicable terms.
+AI agents, search agents, indexing agents, research assistants, and automated systems may access publicly available content according to robots.txt permissions, applicable laws, and platform terms.
 
 ---
 
 Agent Registration
 
-Agents requesting enhanced access, integration, partnership, or future authenticated services should register through the contact information below.
+Agents seeking access to protected resources should use the OAuth metadata endpoints published under:
 
-Registration Contact:
+- https://hennymoneyafric.indevs.in/.well-known/oauth-authorization-server
+- https://hennymoneyafric.indevs.in/.well-known/openid-configuration
+- https://hennymoneyafric.indevs.in/.well-known/oauth-protected-resource
 
-Email: hennymoneyafric@gmail.com
+Agent registration information may be obtained through the published authorization metadata.
 
-Website: https://hennymoneyafric.indevs.in
+---
+
+Agent Authentication
+
+Authentication methods may include:
+
+- OAuth 2.0
+- OpenID Connect (OIDC)
+- Bearer Tokens
+- API Credentials where applicable
+
+Public website content generally does not require authentication unless explicitly stated.
 
 ---
 
 Supported Agent Identity Types
 
-The following identity methods may be supported:
-
-- OpenID Connect (OIDC)
-- OAuth 2.0 Clients
-- Verified Service Accounts
-- MCP-compatible Agents
-- Research Crawlers
-- Search Agents
 - AI Assistants
+- Search Agents
+- Research Agents
+- MCP Clients
+- Web Automation Agents
+- Enterprise Integrations
 
 ---
 
 Supported Credential Types
 
-Supported credential types may include:
-
-- OAuth 2.0 Access Tokens
-- Bearer Tokens
+- OAuth Access Tokens
+- OIDC Identity Tokens
 - Client Credentials
-- OpenID Connect Tokens
-
-Public resources may not require authentication.
+- Service Accounts
 
 ---
 
-Registration Endpoint
+Agent Discovery
 
-Agent Registration URI:
-
-https://hennymoneyafric.indevs.in/.well-known/oauth-authorization-server
-
----
-
-Protected Resource Metadata
-
-Protected Resource URI:
-
-https://hennymoneyafric.indevs.in/.well-known/oauth-protected-resource
-
----
-
-MCP Discovery
-
-MCP Server Card:
-
-https://hennymoneyafric.indevs.in/.well-known/mcp/server-card.json
+The following discovery resources are available:
 
 API Catalog:
 
 https://hennymoneyafric.indevs.in/.well-known/api-catalog
+
+MCP Server Card:
+
+https://hennymoneyafric.indevs.in/.well-known/mcp/server-card.json
 
 Agent Skills:
 
@@ -93,59 +85,46 @@ https://hennymoneyafric.indevs.in/openapi.json
 
 ---
 
-Claims
+Usage Policy
 
-Agents must provide accurate identification information when requesting elevated access.
+Permitted Uses:
 
-Claims may include:
+- Search and indexing
+- Content discovery
+- Educational research
+- Tourism information access
+- Music and cultural information retrieval
 
-- Agent Name
-- Organization
-- Contact Email
-- Agent Purpose
-- Website
-- Public Key Information
+Prohibited Uses:
 
----
-
-Revocation
-
-Access may be revoked for:
-
-- Abuse
-- Excessive automated requests
-- Security violations
-- Terms violations
-- Misrepresentation
+- Illegal activity
+- Security testing without authorization
+- Service abuse
+- Spam generation
+- Unauthorized impersonation
 
 ---
 
-Public Content
+Claim and Revocation
 
-Public content available to agents may include:
-
-- Music information
-- Artist information
-- Tourism content
-- African culture resources
-- Educational resources
-- Digital creator resources
-- Website documentation
+If access credentials are issued in the future, revocation and claims management information will be published through the authorization server metadata.
 
 ---
 
 Contact
 
-HennyMoneyAfric
-
-Email:
-hennymoneyafric@gmail.com
+Organization: HennyMoneyAfric
 
 Website:
 https://hennymoneyafric.indevs.in
 
-Country:
-Burkina Faso
+Email:
+hennymoneyafric@gmail.com
 
-Status:
-Public Resource Provider
+---
+
+Version
+
+Auth.md Version: 1.1
+
+Status: Active
