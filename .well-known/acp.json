@@ -1,10 +1,12 @@
 {
   "protocol": {
-    "name": "ACP",
+    "name": "acp",
     "version": "1.0"
   },
   "service": {
     "name": "HennyMoneyAfric",
     "description": "Music, culture, travel and creator resources"
-  }
+  },
+  "website": "https://hennymoneyafric.indevs.in",
+  "contact": "mailto:hennymoneyafric@gmail.com"
 }
