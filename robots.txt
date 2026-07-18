@@ -1,10 +1,18 @@
+# HennyMoneyAfric AI & Search Crawler Policy
+
 User-agent: *
 Allow: /
 
 User-agent: GPTBot
 Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: Google-Extended
