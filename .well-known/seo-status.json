@@ -1,0 +1,15 @@
+{
+"name":"HennyMoney Afric",
+"website":"https://hennymoneyafric.indevs.in",
+"description":"Afrobeat music, African culture, tourism and digital creativity platform.",
+"sitemap":"https://hennymoneyafric.indevs.in/sitemap.xml",
+"schema":[
+"Person",
+"Organization",
+"MusicGroup",
+"WebSite"
+],
+"ai_ready":true,
+"platform":"GitHub Pages + Cloudflare",
+"last_update":"2026-07-19"
+}
