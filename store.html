@@ -15,22 +15,74 @@
 
 <link rel="stylesheet" href="style.css">
 
-
-<!-- Product Schema -->
+<!-- Store + Products Structured Data -->
 <script type="application/ld+json">
 {
-"@context":"https://schema.org",
-"@type":"Store",
-"name":"HennyMoneyAfric Store",
-"url":"https://hennymoneyafric.indevs.in/store.html",
-"description":"Digital products, music and creative services from HennyMoneyAfric.",
-"brand":{
-"@type":"Brand",
-"name":"HennyMoneyAfric"
-}
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "HennyMoneyAfric Store",
+  "url": "https://hennymoneyafric.indevs.in/store.html",
+  "description": "Official HennyMoneyAfric store featuring Afrobeat music products, digital creator resources, and creative services.",
+  "brand": {
+    "@type": "Brand",
+    "name": "HennyMoneyAfric"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "HennyMoneyAfric Digital Products",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "Africa Unite Digital Pack",
+        "description": "Afrobeat digital pack including music resources, lyrics and artwork.",
+        "brand": {
+          "@type": "Brand",
+          "name": "HennyMoneyAfric"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "5",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://hennymoneyafric.indevs.in/store.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Afrobeat Creator Pack",
+        "description": "AI prompts, content ideas and music promotion resources for creators.",
+        "brand": {
+          "@type": "Brand",
+          "name": "HennyMoneyAfric"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "10",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://hennymoneyafric.indevs.in/store.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "African Creator Guide",
+        "description": "A digital guide for music promotion, branding and online growth.",
+        "brand": {
+          "@type": "Brand",
+          "name": "HennyMoneyAfric"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "5",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://hennymoneyafric.indevs.in/store.html"
+        }
+      }
+    ]
+  }
 }
 </script>
-
 
 <!-- Organization Schema -->
 <script type="application/ld+json">
