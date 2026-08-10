@@ -1,346 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>daily</changefreq>
-<priority>1.0</priority>
-</url>
+    <!-- Main Website -->
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/about.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/music.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/music.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/services.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/services.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/store.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/resources.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/resources.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/store.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/support.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/support.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/privacy.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.4</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/donate.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/terms.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.4</priority>
-</url>
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/privacy.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
 
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/terms.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
 
-<!-- Articles -->
+    <!-- Articles -->
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article1.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article1.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article2.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article2.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article3.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article3.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article4.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article4.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article5.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article5.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article6.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article6.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article7.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article7.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article8.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article8.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article9.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article9.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article10.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article10.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article11.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article11.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article12.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article12.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article13.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article13.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article14.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article14.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article15.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article15.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article16.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article16.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article17.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article17.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article18.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article18.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-  
-<url>
-<loc>https://hennymoneyafric.indevs.in/article19.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article19.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article20.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article20.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article21.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article21.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article22.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article22.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article23.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article23.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article24.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article24.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article25.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article25.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article26.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article26.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article27.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article27.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-  <loc>https://hennymoneyafric.indevs.in/article28.html</loc>
-  <lastmod>2026-07-23</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article28.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article29.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article29.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article30.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article30.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-<loc>https://hennymoneyafric.indevs.in/article31.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article31.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article32.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article32.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article33.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article33.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article34.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article34.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article35.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article35.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article36.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article36.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article37.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article37.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-<url>
-<loc>https://hennymoneyafric.indevs.in/article38.html</loc>
-<lastmod>2026-07-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-  
-<!-- Monetization -->
-
-<url>
-<loc>https://hennymoneyafric.indevs.in/donate.html</loc>
-<lastmod>2026-07-19</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
+    <url>
+        <loc>https://hennymoneyafric.indevs.in/article38.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
 </urlset>
