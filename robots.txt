@@ -1,9 +1,69 @@
-# HennyMoneyAfric AI & Search Crawler Policy
+# ============================================================
+# HennyMoney Afric - Robots.txt V2.0
+# Music • Culture • Travel • Digital Creativity
+# ============================================================
 
+# Default crawler access
 User-agent: *
 Allow: /
 
+# Block repository/system and unnecessary technical paths
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.well-known/
+Disallow: /api/private/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+Disallow: /drafts/
+
+# Allow important public website resources
+Allow: /index.html
+Allow: /about.html
+Allow: /music.html
+Allow: /services.html
+Allow: /resources.html
+Allow: /support.html
+Allow: /donate.html
+Allow: /store.html
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /article
+Allow: /style.css
+Allow: /logo.png
+Allow: /artist-photo.jpg
+Allow: /banner.jpg
+Allow: /manifest.json
+Allow: /sitemap.xml
+
+# ============================================================
+# Search Engines
+# ============================================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ============================================================
+# AI / Search Crawlers
+# ============================================================
+
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -12,15 +72,42 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-User
-Allow: /
-
-User-agent: Google-Extended
+User-agent: anthropic-ai
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-Content-Signal: search=yes, ai-train=yes, ai-input=yes
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ============================================================
+# Social Preview Crawlers
+# ============================================================
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# ============================================================
+# Sitemap
+# ============================================================
 
 Sitemap: https://hennymoneyafric.indevs.in/sitemap.xml
