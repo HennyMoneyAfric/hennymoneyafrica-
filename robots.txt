@@ -1,13 +1,19 @@
 # ============================================================
-# HennyMoney Afric - Robots.txt V2.0
+# HennyMoney Afric - Robots.txt
 # Music • Culture • Travel • Digital Creativity
 # ============================================================
 
+# ============================================================
 # Default crawler access
+# ============================================================
+
 User-agent: *
 Allow: /
 
-# Block repository/system and unnecessary technical paths
+# ============================================================
+# Private / unnecessary technical paths
+# ============================================================
+
 Disallow: /.git/
 Disallow: /.github/
 Disallow: /.well-known/
@@ -18,27 +24,8 @@ Disallow: /tmp/
 Disallow: /test/
 Disallow: /drafts/
 
-# Allow important public website resources
-Allow: /index.html
-Allow: /about.html
-Allow: /music.html
-Allow: /services.html
-Allow: /resources.html
-Allow: /support.html
-Allow: /donate.html
-Allow: /store.html
-Allow: /privacy.html
-Allow: /terms.html
-Allow: /article
-Allow: /style.css
-Allow: /logo.png
-Allow: /artist-photo.jpg
-Allow: /banner.jpg
-Allow: /manifest.json
-Allow: /sitemap.xml
-
 # ============================================================
-# Search Engines
+# Search Engine Crawlers
 # ============================================================
 
 User-agent: Googlebot
