@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <!-- =====================================================
          HennyMoney Afric XML Sitemap
-         Official website:
+         Official Website:
          https://hennymoneyafric.indevs.in/
          ===================================================== -->
 
@@ -58,9 +58,7 @@
         <priority>0.7</priority>
     </url>
 
-    <!-- =====================================================
-         Legal Pages
-         ===================================================== -->
+    <!-- Legal Pages -->
 
     <url>
         <loc>https://hennymoneyafric.indevs.in/privacy.html</loc>
@@ -74,9 +72,7 @@
         <priority>0.3</priority>
     </url>
 
-    <!-- =====================================================
-         Articles
-         ===================================================== -->
+    <!-- Articles -->
 
     <url>
         <loc>https://hennymoneyafric.indevs.in/article1.html</loc>
