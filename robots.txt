@@ -1,4 +1,5 @@
 # HennyMoney Afric - Robots.txt
+# Music • Culture • Travel • Digital Creativity
 
 User-agent: *
 Allow: /
@@ -13,5 +14,5 @@ Disallow: /tmp/
 Disallow: /test/
 Disallow: /drafts/
 
-# Sitemap
+# XML Sitemap
 Sitemap: https://hennymoneyafric.indevs.in/sitemap.xml
