@@ -3,20 +3,12 @@
 # Music • Culture • Travel • Digital Creativity
 # ============================================================
 
-# ============================================================
-# Default crawler access
-# ============================================================
-
 User-agent: *
 Allow: /
 
-# ============================================================
-# Private / unnecessary technical paths
-# ============================================================
-
+# Private / non-public directories
 Disallow: /.git/
 Disallow: /.github/
-Disallow: /.well-known/
 Disallow: /api/private/
 Disallow: /admin/
 Disallow: /private/
@@ -25,7 +17,7 @@ Disallow: /test/
 Disallow: /drafts/
 
 # ============================================================
-# Search Engine Crawlers
+# Major Search Engines
 # ============================================================
 
 User-agent: Googlebot
@@ -75,7 +67,7 @@ User-agent: Bytespider
 Allow: /
 
 # ============================================================
-# Social Preview Crawlers
+# Social Media Preview Crawlers
 # ============================================================
 
 User-agent: facebookexternalhit
@@ -94,7 +86,7 @@ User-agent: WhatsApp
 Allow: /
 
 # ============================================================
-# Sitemap
+# XML Sitemap
 # ============================================================
 
 Sitemap: https://hennymoneyafric.indevs.in/sitemap.xml
