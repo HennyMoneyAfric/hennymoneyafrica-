@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
 
-  <!-- =========================================================
-       BASIC SEO
-  ========================================================== -->
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,12 +9,12 @@
 
   <meta
     name="description"
-    content="Privacy Policy for HennyMoney Afric. Learn how information may be collected, used and protected when you visit the HennyMoney Afric website."
+    content="Read the HennyMoney Afric Privacy Policy covering website visitors, analytics, advertising, cookies, contact information, survey and reward partners, external services and privacy choices."
   >
 
   <meta
     name="keywords"
-    content="HennyMoney Afric Privacy Policy, privacy, cookies, Google Analytics, Google AdSense, data protection"
+    content="HennyMoney Afric Privacy Policy, privacy, cookies, Google Analytics, Google AdSense, survey privacy, rewards privacy, African digital creator"
   >
 
   <meta name="author" content="HennyMoney Afric">
@@ -29,29 +25,27 @@
     href="https://hennymoneyafric.indevs.in/privacy.html"
   >
 
-  <!-- Favicon -->
-  <link
-    rel="icon"
-    type="image/png"
-    href="logo.png"
-  >
+  <!-- SITE ICON / PWA -->
 
-  <!-- Web App Manifest -->
-  <link
-    rel="manifest"
-    href="manifest.json"
-  >
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="manifest" href="manifest.json">
 
-  <!-- Theme Color -->
+  <meta name="theme-color" content="#08111f">
+
+  <!-- GOOGLE ADSENSE -->
+
   <meta
-    name="theme-color"
-    content="#08111f"
+    name="google-adsense-account"
+    content="ca-pub-1952829194615533"
   >
 
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1952829194615533"
+    crossorigin="anonymous">
+  </script>
 
-  <!-- =========================================================
-       GOOGLE ANALYTICS
-  ========================================================== -->
+  <!-- GOOGLE ANALYTICS -->
 
   <script
     async
@@ -70,21 +64,7 @@
     gtag('config', 'G-1WSPQX6V3W');
   </script>
 
-
-  <!-- =========================================================
-       GOOGLE ADSENSE
-  ========================================================== -->
-
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1952829194615533"
-    crossorigin="anonymous">
-  </script>
-
-
-  <!-- =========================================================
-       OPEN GRAPH
-  ========================================================== -->
+  <!-- OPEN GRAPH -->
 
   <meta
     property="og:title"
@@ -93,12 +73,7 @@
 
   <meta
     property="og:description"
-    content="Learn how HennyMoney Afric handles information, analytics, cookies and third-party services."
-  >
-
-  <meta
-    property="og:url"
-    content="https://hennymoneyafric.indevs.in/privacy.html"
+    content="Learn how HennyMoney Afric handles website information, analytics, advertising, cookies, contact enquiries and third-party services."
   >
 
   <meta
@@ -107,19 +82,18 @@
   >
 
   <meta
-    property="og:type"
-    content="website"
+    property="og:url"
+    content="https://hennymoneyafric.indevs.in/privacy.html"
   >
+
+  <meta property="og:type" content="website">
 
   <meta
     property="og:site_name"
     content="HennyMoney Afric"
   >
 
-
-  <!-- =========================================================
-       TWITTER / X
-  ========================================================== -->
+  <!-- TWITTER / X -->
 
   <meta
     name="twitter:card"
@@ -133,7 +107,7 @@
 
   <meta
     name="twitter:description"
-    content="Privacy information for visitors to HennyMoney Afric."
+    content="Privacy information for visitors and users of the HennyMoney Afric digital platform."
   >
 
   <meta
@@ -141,10 +115,31 @@
     content="https://hennymoneyafric.indevs.in/artist-photo.jpg"
   >
 
+  <!-- STRUCTURED DATA -->
 
-  <!-- =========================================================
-       PAGE STYLES
-  ========================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://hennymoneyafric.indevs.in/privacy.html#privacy",
+    "url": "https://hennymoneyafric.indevs.in/privacy.html",
+    "name": "Privacy Policy | HennyMoney Afric",
+    "description": "Privacy Policy for HennyMoney Afric.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "HennyMoney Afric",
+      "url": "https://hennymoneyafric.indevs.in/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "HennyMoney Afric",
+      "url": "https://hennymoneyafric.indevs.in/",
+      "email": "hennymoneyafric@gmail.com"
+    }
+  }
+  </script>
+
+  <!-- PAGE STYLES -->
 
   <style>
 
@@ -161,23 +156,33 @@
       font-family: Arial, Helvetica, sans-serif;
       background: #08111f;
       color: #ffffff;
-      line-height: 1.7;
+      line-height: 1.8;
     }
 
     header {
       background: #111827;
       padding: 40px 20px;
       text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .hero-logo {
+      width: 120px;
+      max-width: 60%;
+      height: auto;
+      display: block;
+      margin: 0 auto 18px;
+      border-radius: 18px;
     }
 
     header h1 {
       margin: 0 0 10px;
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
 
     header p {
       margin: 0;
-      opacity: 0.9;
+      color: #e5e7eb;
     }
 
     nav {
@@ -185,7 +190,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
+      gap: 8px;
     }
 
     nav a {
@@ -193,7 +198,7 @@
       text-decoration: none;
       font-weight: bold;
       padding: 8px 12px;
-      border-radius: 6px;
+      border-radius: 7px;
       transition: background 0.2s ease;
     }
 
@@ -204,9 +209,9 @@
 
     .container {
       width: 100%;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 30px 20px;
+      padding: 35px 20px;
     }
 
     .card {
@@ -214,30 +219,40 @@
       padding: 28px;
       border-radius: 14px;
       margin-bottom: 25px;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
     }
 
-    h2 {
-      color: #ffffff;
+    .card h2 {
       margin-top: 0;
-    }
-
-    h3 {
       color: #ffffff;
-      margin-top: 25px;
     }
 
-    p,
-    li {
+    .card h3 {
+      color: #ffffff;
+    }
+
+    .card p,
+    .card li {
       color: #e5e7eb;
     }
 
-    ul {
-      padding-left: 25px;
+    .notice {
+      border-left: 4px solid #8b5cf6;
+      padding: 16px 18px;
+      background: rgba(139,92,246,0.08);
+      border-radius: 6px;
     }
 
-    a {
-      color: #ffffff;
+    .warning {
+      border-left: 4px solid #f59e0b;
+      padding: 16px 18px;
+      background: rgba(245,158,11,0.08);
+      border-radius: 6px;
+    }
+
+    .updated {
+      font-size: 0.9rem;
+      color: #d1d5db;
     }
 
     .btn {
@@ -254,14 +269,7 @@
 
     .btn:hover,
     .btn:focus {
-      opacity: 0.9;
-    }
-
-    .notice {
-      border-left: 4px solid #8b5cf6;
-      padding: 15px 18px;
-      background: #111827;
-      border-radius: 8px;
+      opacity: 0.88;
     }
 
     footer {
@@ -271,14 +279,17 @@
       margin-top: 40px;
     }
 
+    footer p {
+      margin: 8px 0;
+      color: #e5e7eb;
+    }
+
     footer a {
       color: #ffffff;
       text-decoration: none;
-      margin: 0 8px;
     }
 
-    footer a:hover,
-    footer a:focus {
+    footer a:hover {
       text-decoration: underline;
     }
 
@@ -294,11 +305,11 @@
       }
 
       header h1 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
       }
 
       .container {
-        padding: 20px 15px;
+        padding: 25px 15px;
       }
 
       .card {
@@ -314,26 +325,37 @@
         padding: 7px 9px;
       }
 
+      .btn {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+      }
+
     }
 
   </style>
 
 </head>
 
-
 <body>
 
-
-  <!-- =========================================================
-       HEADER
-  ========================================================== -->
+  <!-- HEADER -->
 
   <header>
+
+    <img
+      src="logo.png"
+      alt="HennyMoney Afric logo"
+      class="hero-logo"
+      width="120"
+      height="120"
+      loading="eager"
+    >
 
     <h1>🔒 Privacy Policy</h1>
 
     <p>
-      HennyMoney Afric — Music • Culture • Travel • Digital Creativity
+      Transparency • Privacy • Responsible Digital Services
     </p>
 
     <nav aria-label="Main navigation">
@@ -348,365 +370,372 @@
 
       <a href="resources.html">Resources</a>
 
+      <a href="rewards.html">Rewards</a>
+
+      <a href="store.html">Store</a>
+
       <a href="support.html">Support</a>
 
       <a href="donate.html">Donate</a>
 
-      <a href="store.html">Store</a>
+      <a href="contact.html">Contact</a>
 
     </nav>
 
   </header>
 
-
-  <!-- =========================================================
-       MAIN CONTENT
-  ========================================================== -->
+  <!-- MAIN -->
 
   <main class="container">
 
-
-    <!-- =======================================================
-         1. INTRODUCTION
-    ======================================================== -->
+    <!-- INTRODUCTION -->
 
     <section class="card">
 
-      <h2>1. Introduction</h2>
+      <h2>📌 About This Privacy Policy</h2>
 
       <p>
-        Welcome to HennyMoney Afric. This Privacy Policy explains
-        how information may be collected, used and protected when
-        you visit or interact with the official HennyMoney Afric
-        website.
+        HennyMoney Afric respects the privacy of visitors and users
+        of its digital platform.
       </p>
 
       <p>
-        HennyMoney Afric is an independent creative platform
-        focused on African music, culture, tourism, digital
-        creativity, fashion and creator resources.
+        This Privacy Policy explains the general types of information
+        that may be collected through the HennyMoney Afric website,
+        how that information may be used, and the choices available
+        to visitors.
       </p>
 
-      <p>
-        By using this website, you acknowledge that information
-        may be processed as described in this Privacy Policy.
+      <p class="updated">
+        <strong>Last updated:</strong> October 5, 2026
       </p>
 
-      <div class="notice">
-        <strong>Last Updated:</strong> August 2026
-      </div>
+      <p class="notice">
+        By using this website, you acknowledge that information may
+        be processed as described in this Privacy Policy, subject to
+        applicable law and the policies of third-party services used
+        on the website.
+      </p>
 
     </section>
 
-
-    <!-- =======================================================
-         2. INFORMATION WE MAY COLLECT
-    ======================================================== -->
+    <!-- INFORMATION COLLECTED -->
 
     <section class="card">
 
-      <h2>2. Information We May Collect</h2>
+      <h2>1. 📊 Information We May Collect</h2>
 
       <p>
-        HennyMoney Afric does not intentionally collect unnecessary
-        personal information from ordinary visitors.
+        Depending on how you interact with HennyMoney Afric, the
+        website may receive or process different categories of
+        information.
+      </p>
+
+      <h3>Information You Provide</h3>
+
+      <ul>
+
+        <li>
+          Your name or preferred name when you contact us.
+        </li>
+
+        <li>
+          Your email address when you send an enquiry.
+        </li>
+
+        <li>
+          Information you voluntarily include in a message or
+          business enquiry.
+        </li>
+
+        <li>
+          Information voluntarily provided when discussing a
+          website, digital, creative or partnership project.
+        </li>
+
+      </ul>
+
+      <h3>Technical Information</h3>
+
+      <p>
+        Like many websites, technical information may be processed
+        automatically when you visit the website. This can include
+        information such as browser type, device information,
+        approximate location, referring pages, pages visited,
+        interaction information and general usage data.
+      </p>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="card">
+
+      <h2>2. 📩 Contact Information</h2>
+
+      <p>
+        If you contact HennyMoney Afric by email, WhatsApp or another
+        available communication channel, we may receive the information
+        that you choose to provide.
       </p>
 
       <p>
-        Depending on how you use the website, information may include:
+        Contact information may be used to:
       </p>
 
       <ul>
 
         <li>
-          Information you voluntarily provide through email or
-          other communication.
+          Respond to enquiries.
         </li>
 
         <li>
-          Your name or contact information if you choose to
-          contact HennyMoney Afric.
+          Provide requested information.
         </li>
 
         <li>
-          Technical information such as browser type, device type
-          and general website usage information.
+          Discuss services or partnerships.
         </li>
 
         <li>
-          Approximate location information that may be inferred
-          by analytics or advertising services.
+          Provide customer or project support.
         </li>
 
         <li>
-          Website interaction and traffic information collected
-          through analytics technologies.
+          Maintain reasonable business communication records.
         </li>
 
       </ul>
 
       <p>
-        Do not submit sensitive personal information through this
-        website unless it is specifically requested and appropriate
-        for the service being provided.
+        Please do not send passwords, private keys, recovery phrases,
+        payment-card numbers or other highly sensitive credentials
+        through ordinary contact channels.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         3. GOOGLE ANALYTICS
-    ======================================================== -->
+    <!-- ANALYTICS -->
 
     <section class="card">
 
-      <h2>3. Google Analytics</h2>
+      <h2>3. 📈 Google Analytics</h2>
 
       <p>
-        This website uses Google Analytics to understand how
-        visitors interact with the website and to improve website
-        performance, content and user experience.
+        HennyMoney Afric uses Google Analytics to understand general
+        website usage and improve the website experience.
       </p>
 
       <p>
-        Google Analytics may collect information such as pages
-        visited, approximate geographic information, device
-        information, browser information, referral sources and
-        interaction data.
+        Analytics information may include pages viewed, approximate
+        geographic information, device information, browser
+        information, traffic sources and interactions with the website.
       </p>
 
       <p>
-        Analytics information is generally used in aggregated or
-        statistical form to understand website traffic and
-        performance.
+        Google may process information according to its own privacy
+        policies and terms.
       </p>
 
       <p>
-        Google may process information according to its own
-        privacy policies and terms.
+        Analytics information is used primarily for website
+        measurement, performance analysis, content improvement and
+        understanding general audience activity.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         4. GOOGLE ADSENSE
-    ======================================================== -->
+    <!-- ADSENSE -->
 
     <section class="card">
 
-      <h2>4. Google AdSense and Advertising</h2>
+      <h2>4. 📢 Advertising & Google AdSense</h2>
 
       <p>
-        This website may use Google AdSense or related Google
-        advertising technologies to display advertisements.
+        HennyMoney Afric may display advertising through Google
+        AdSense or other advertising services.
       </p>
 
       <p>
-        Advertising providers may use cookies or similar
-        technologies to provide, measure or personalize
-        advertisements and to understand advertising performance.
+        Advertising providers may use cookies, device information,
+        contextual information and other technologies to deliver,
+        measure or personalize advertising, subject to their own
+        policies and applicable user choices.
       </p>
 
       <p>
-        Advertising practices may vary depending on the visitor's
-        location, browser settings and available consent mechanisms.
+        The availability and type of advertising displayed on the
+        website may change over time.
       </p>
 
       <p>
-        Third-party advertising providers may process information
-        according to their own privacy policies.
-      </p>
-
-      <p>
-        HennyMoney Afric does not directly control the
-        information-processing practices of third-party advertising
-        providers.
+        HennyMoney Afric does not control every advertisement shown
+        by third-party advertising systems.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         5. COOKIES
-    ======================================================== -->
+    <!-- COOKIES -->
 
     <section class="card">
 
-      <h2>5. Cookies and Similar Technologies</h2>
+      <h2>5. 🍪 Cookies & Similar Technologies</h2>
 
       <p>
-        This website and third-party services used on the website
-        may use cookies, local storage, pixels or similar
-        technologies.
+        The website and third-party services used on the website may
+        use cookies or similar technologies.
       </p>
 
       <p>
-        These technologies may be used for purposes such as:
+        Cookies may be used for purposes such as:
       </p>
 
       <ul>
 
-        <li>Website functionality.</li>
-
-        <li>Analytics and traffic measurement.</li>
-
-        <li>Security and fraud prevention.</li>
-
-        <li>Advertising measurement and personalization.</li>
+        <li>
+          Website functionality.
+        </li>
 
         <li>
-          Improving website performance and user experience.
+          Analytics and measurement.
+        </li>
+
+        <li>
+          Advertising and advertising measurement.
+        </li>
+
+        <li>
+          Remembering certain preferences.
+        </li>
+
+        <li>
+          Security and service performance.
         </li>
 
       </ul>
 
       <p>
-        You may be able to control or delete cookies through your
-        browser settings. Disabling certain cookies may affect
+        You can manage cookies through your browser settings.
+        Disabling certain cookies may affect the functionality of
         some website features or third-party services.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         6. THIRD-PARTY SERVICES
-    ======================================================== -->
+    <!-- SURVEYS -->
 
     <section class="card">
 
-      <h2>6. Third-Party Websites and Services</h2>
+      <h2>6. 🎁 Surveys & Reward Programmes</h2>
 
       <p>
-        The HennyMoney Afric website contains links to third-party
-        websites and platforms, including music, social media,
-        payment, shopping and communication services.
-      </p>
-
-      <p>These may include:</p>
-
-      <ul>
-
-        <li>Spotify</li>
-        <li>Audiomack</li>
-        <li>YouTube</li>
-        <li>Instagram</li>
-        <li>TikTok</li>
-        <li>Linktree</li>
-        <li>Selar</li>
-        <li>WhatsApp</li>
-        <li>Google services</li>
-
-      </ul>
-
-      <p>
-        When you follow a third-party link, you leave the
-        HennyMoney Afric website and become subject to the privacy
-        policy and terms of that third-party service.
+        HennyMoney Afric may provide access to survey and reward
+        opportunities through independent third-party research
+        partners.
       </p>
 
       <p>
-        HennyMoney Afric is not responsible for the privacy
-        practices, security, content or policies of external
-        websites.
+        These providers may collect information directly from
+        participants for research, eligibility, fraud prevention,
+        reward processing or other purposes described in their own
+        privacy policies.
+      </p>
+
+      <p>
+        HennyMoney Afric does not control the privacy practices of
+        independent third-party research providers.
+      </p>
+
+      <p class="warning">
+        Before participating in a survey, review the applicable
+        provider's privacy policy and terms so you understand how
+        your information will be handled.
+      </p>
+
+      <a
+        class="btn"
+        href="survey-disclaimer.html"
+      >
+        📋 Survey Disclaimer
+      </a>
+
+      <a
+        class="btn"
+        href="rewards.html"
+      >
+        🎁 Rewards Information
+      </a>
+
+    </section>
+
+    <!-- THIRD PARTY SERVICES -->
+
+    <section class="card">
+
+      <h2>7. 🌐 Third-Party Services & External Links</h2>
+
+      <p>
+        HennyMoney Afric may link to or integrate with external
+        websites, platforms and services.
+      </p>
+
+      <p>
+        Examples may include social media platforms, music platforms,
+        payment providers, advertising services, research providers,
+        analytics services, hosting services and other digital tools.
+      </p>
+
+      <p>
+        When you leave HennyMoney Afric and use an external service,
+        that service's own privacy policy and terms apply.
+      </p>
+
+      <p>
+        HennyMoney Afric is not responsible for the privacy practices
+        or security of independent external websites.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         7. EMAIL AND DIRECT COMMUNICATION
-    ======================================================== -->
+    <!-- HOW INFORMATION IS USED -->
 
     <section class="card">
 
-      <h2>7. Email and Direct Communication</h2>
+      <h2>8. ⚙️ How Information May Be Used</h2>
 
       <p>
-        If you contact HennyMoney Afric by email, WhatsApp or
-        another communication channel, information you voluntarily
-        provide may be used to respond to your request.
-      </p>
-
-      <p>
-        For example, you may provide your name, email address,
-        telephone number, project information or other information
-        necessary to respond to a business or collaboration request.
-      </p>
-
-      <p>
-        Such information should only be used for the purpose
-        reasonably connected with your communication unless another
-        use is required or permitted by applicable law.
-      </p>
-
-    </section>
-
-
-    <!-- =======================================================
-         8. PAYMENTS
-    ======================================================== -->
-
-    <section class="card">
-
-      <h2>8. Payments and Purchases</h2>
-
-      <p>
-        Some pages may direct visitors to external platforms for
-        purchases, donations, digital products, services or other
-        transactions.
-      </p>
-
-      <p>
-        HennyMoney Afric does not request or store payment card
-        details directly through ordinary static website pages.
-      </p>
-
-      <p>
-        When you make a transaction through a third-party platform,
-        payment information is handled by that platform according
-        to its own privacy policy, security practices and terms.
-      </p>
-
-    </section>
-
-
-    <!-- =======================================================
-         9. HOW INFORMATION MAY BE USED
-    ======================================================== -->
-
-    <section class="card">
-
-      <h2>9. How Information May Be Used</h2>
-
-      <p>
-        Information available to HennyMoney Afric may be used for
-        legitimate purposes such as:
+        Information may be used for legitimate website, communication
+        and business purposes, including:
       </p>
 
       <ul>
 
-        <li>Responding to questions and requests.</li>
-
         <li>
-          Providing requested services or information.
+          Operating and maintaining the website.
         </li>
 
         <li>
-          Managing collaborations and business communications.
+          Responding to enquiries.
         </li>
 
         <li>
-          Improving website content and functionality.
+          Providing requested services or support.
         </li>
 
         <li>
-          Understanding website traffic and audience engagement.
+          Improving website content and usability.
         </li>
 
         <li>
-          Maintaining website security.
+          Understanding website traffic and performance.
+        </li>
+
+        <li>
+          Supporting advertising and measurement.
+        </li>
+
+        <li>
+          Preventing abuse, fraud or misuse where applicable.
         </li>
 
         <li>
@@ -717,48 +746,49 @@
 
     </section>
 
-
-    <!-- =======================================================
-         10. DATA SHARING
-    ======================================================== -->
+    <!-- DATA SHARING -->
 
     <section class="card">
 
-      <h2>10. Data Sharing</h2>
+      <h2>9. 🔗 Sharing of Information</h2>
 
       <p>
-        HennyMoney Afric does not intend to sell visitors' personal
-        information.
+        HennyMoney Afric does not sell personal information as a
+        general business practice.
       </p>
 
       <p>
-        Information may nevertheless be processed or shared with
-        third-party service providers when reasonably necessary to
-        operate the website or provide requested services, including
-        analytics, advertising, hosting, payment and communication
-        services.
+        Information may be processed or shared with service providers
+        where reasonably necessary to operate the website, provide
+        requested services, communicate with users, measure website
+        performance, provide advertising or support legitimate
+        business functions.
       </p>
 
       <p>
-        Information may also be disclosed when required by
-        applicable law, legal process or legitimate security
-        requirements.
+        Third-party providers may process information according to
+        their own privacy policies and contractual or legal
+        obligations.
+      </p>
+
+      <p>
+        Information may also be disclosed where required by applicable
+        law, legal process or a legitimate request from an authorized
+        authority.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         11. DATA SECURITY
-    ======================================================== -->
+    <!-- DATA SECURITY -->
 
     <section class="card">
 
-      <h2>11. Data Security</h2>
+      <h2>10. 🛡️ Data Security</h2>
 
       <p>
-        Reasonable measures are used to protect information handled
-        through the website and associated services.
+        Reasonable measures are taken to protect information handled
+        through HennyMoney Afric from unauthorized access, misuse or
+        disclosure.
       </p>
 
       <p>
@@ -767,193 +797,226 @@
       </p>
 
       <p>
-        Visitors should avoid sending highly sensitive information
-        through ordinary email, website forms or public
-        communication channels.
+        Visitors should use appropriate security practices and avoid
+        sending sensitive credentials through unsecured communication
+        channels.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         12. CHILDREN'S PRIVACY
-    ======================================================== -->
+    <!-- DATA RETENTION -->
 
     <section class="card">
 
-      <h2>12. Children's Privacy</h2>
+      <h2>11. 🗂️ Data Retention</h2>
 
       <p>
-        This website is not specifically directed toward children
-        and HennyMoney Afric does not knowingly seek to collect
-        personal information from children.
+        Information may be retained for as long as reasonably
+        necessary for the purpose for which it was collected,
+        legitimate business needs, security, dispute resolution,
+        legal obligations or other applicable requirements.
       </p>
 
       <p>
-        If you believe that a child has provided personal
-        information through the website, please contact
-        HennyMoney Afric so the matter can be reviewed.
+        Retention periods may differ depending on the type of
+        information and the service involved.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         13. INTERNATIONAL VISITORS
-    ======================================================== -->
+    <!-- USER RIGHTS -->
 
     <section class="card">
 
-      <h2>13. International Visitors</h2>
-
-      <p>
-        HennyMoney Afric is an internationally accessible website.
-        Visitors may access the website from countries with
-        different privacy and data-protection laws.
-      </p>
-
-      <p>
-        Third-party services used by the website may process
-        information in countries other than the visitor's country
-        of residence.
-      </p>
-
-    </section>
-
-
-    <!-- =======================================================
-         14. PRIVACY CHOICES
-    ======================================================== -->
-
-    <section class="card">
-
-      <h2>14. Your Privacy Choices</h2>
+      <h2>12. 👤 Privacy Choices & Rights</h2>
 
       <p>
         Depending on your location and applicable law, you may have
-        rights concerning personal information, including rights to
-        request access, correction, deletion or information about
-        how your data is processed.
+        rights relating to your personal information.
       </p>
 
       <p>
-        You may also control certain cookies and tracking
-        technologies through your browser, device settings or
-        available consent controls.
+        These rights may include requesting access to certain
+        information, requesting correction, requesting deletion where
+        applicable, objecting to certain processing, or withdrawing
+        consent where consent is the legal basis for processing.
       </p>
 
       <p>
-        To make a privacy-related request, contact HennyMoney Afric
-        using the information below.
+        To make a privacy-related enquiry, contact HennyMoney Afric
+        using the contact information below.
+      </p>
+
+      <a
+        class="btn"
+        href="contact.html"
+      >
+        📩 Privacy Enquiry
+      </a>
+
+    </section>
+
+    <!-- CHILDREN -->
+
+    <section class="card">
+
+      <h2>13. 👨‍👩‍👧 Children & Age Restrictions</h2>
+
+      <p>
+        HennyMoney Afric is not intended to encourage children to
+        provide personal information without appropriate
+        authorization.
+      </p>
+
+      <p>
+        Some third-party survey and reward programmes may have their
+        own minimum age requirements. Participants should review the
+        applicable provider's eligibility rules before participating.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         15. POLICY CHANGES
-    ======================================================== -->
+    <!-- INTERNATIONAL -->
 
     <section class="card">
 
-      <h2>15. Changes to This Privacy Policy</h2>
+      <h2>14. 🌍 International Services</h2>
 
       <p>
-        This Privacy Policy may be updated periodically to reflect
-        changes to the website, services, technology, legal
-        requirements or business practices.
+        HennyMoney Afric is an Africa-focused digital platform with
+        an international online audience.
       </p>
 
       <p>
-        When changes are made, the updated version will be published
-        on this page with a revised "Last Updated" date.
+        Some service providers used by the website may process
+        information in countries other than the visitor's country.
+      </p>
+
+      <p>
+        Where applicable, those providers are responsible for
+        following the legal requirements and privacy protections
+        relevant to their services.
       </p>
 
     </section>
 
-
-    <!-- =======================================================
-         16. CONTACT
-    ======================================================== -->
+    <!-- POLICY UPDATES -->
 
     <section class="card">
 
-      <h2>16. Contact HennyMoney Afric</h2>
+      <h2>15. 🔄 Changes to This Privacy Policy</h2>
 
       <p>
-        For questions, privacy requests or concerns regarding this
-        Privacy Policy, contact:
+        This Privacy Policy may be updated from time to time to
+        reflect changes to the website, services, technology,
+        third-party providers, legal requirements or business
+        practices.
       </p>
 
       <p>
-        <strong>HennyMoney Afric</strong>
+        The latest version will be published on this page.
+      </p>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="card">
+
+      <h2>16. 📩 Contact HennyMoney Afric</h2>
+
+      <p>
+        For privacy questions, requests or concerns, contact:
       </p>
 
       <p>
-        📧 Email:
-        <a href="mailto:hennymoneyafric@gmail.com">
+        <strong>HennyMoney Afric</strong><br>
+        Ouagadougou, Burkina Faso
+      </p>
+
+      <p>
+
+        <strong>Email:</strong>
+
+        <a
+          href="mailto:hennymoneyafric@gmail.com"
+          style="color:#ffffff;"
+        >
           hennymoneyafric@gmail.com
         </a>
+
       </p>
 
       <p>
-        📱 WhatsApp:
+
+        <strong>WhatsApp:</strong>
+
         <a
           href="https://wa.me/22654852525"
           target="_blank"
           rel="noopener noreferrer"
+          style="color:#ffffff;"
         >
           +226 54 85 25 25
         </a>
+
       </p>
 
-      <p>
-        🌐 Website:
-        <a href="https://hennymoneyafric.indevs.in/">
-          hennymoneyafric.indevs.in
-        </a>
-      </p>
+      <a
+        class="btn"
+        href="contact.html"
+      >
+        📩 Contact Page
+      </a>
 
     </section>
 
-
-    <!-- =======================================================
-         17. RELATED PAGES
-    ======================================================== -->
+    <!-- RELATED PAGES -->
 
     <section class="card">
 
-      <h2>17. Related Pages</h2>
+      <h2>🔗 Related Pages</h2>
 
-      <a class="btn" href="terms.html">
-        Terms of Service
+      <a
+        class="btn"
+        href="terms.html"
+      >
+        📄 Terms of Service
       </a>
 
-      <a class="btn" href="support.html">
-        Support
+      <a
+        class="btn"
+        href="rewards.html"
+      >
+        🎁 Rewards
       </a>
 
-      <a class="btn" href="donate.html">
-        Donate
+      <a
+        class="btn"
+        href="survey-disclaimer.html"
+      >
+        📋 Survey Disclaimer
       </a>
 
-      <a class="btn" href="store.html">
-        Store
+      <a
+        class="btn"
+        href="contact.html"
+      >
+        📩 Contact
       </a>
 
-      <a class="btn" href="resources.html">
-        Resources
+      <a
+        class="btn"
+        href="index.html"
+      >
+        🏠 Home
       </a>
 
     </section>
 
-
   </main>
 
-
-  <!-- =========================================================
-       FOOTER
-  ========================================================== -->
+  <!-- FOOTER -->
 
   <footer>
 
@@ -969,19 +1032,37 @@
     <p>
 
       <a href="privacy.html">
-        Privacy
+        Privacy Policy
       </a>
+
+      &nbsp;|&nbsp;
 
       <a href="terms.html">
-        Terms
+        Terms of Service
       </a>
 
-      <a href="support.html">
-        Support
+      &nbsp;|&nbsp;
+
+      <a href="rewards.html">
+        Rewards
       </a>
 
-      <a href="mailto:hennymoneyafric@gmail.com">
+      &nbsp;|&nbsp;
+
+      <a href="survey-disclaimer.html">
+        Survey Disclaimer
+      </a>
+
+      &nbsp;|&nbsp;
+
+      <a href="contact.html">
         Contact
+      </a>
+
+      &nbsp;|&nbsp;
+
+      <a href="index.html">
+        Home
       </a>
 
     </p>
@@ -991,7 +1072,6 @@
     </p>
 
   </footer>
-
 
 </body>
 </html>
