@@ -1,212 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Main Website -->
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/</loc>
-    </url>
+  <!-- Homepage -->
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <!-- Core Pages -->
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/about.html</loc>
-    </url>
+  <!-- Core Pages -->
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/about.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/music.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/services.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/resources.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/support.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/donate.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/store.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/rewards.html</loc>
+  </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/survey-disclaimer.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/music.html</loc>
-    </url>
+  <!-- Selected Editorial Articles -->
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/services.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article1.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/resources.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article3.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/support.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article4.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/donate.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article5.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/store.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article6.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/privacy.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article8.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/terms.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article9.html</loc>
+  </url>
 
-    <!-- Contact & Rewards -->
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/contact.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article10.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/rewards.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article11.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/survey-disclaimer.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article13.html</loc>
+  </url>
 
-    <!-- Articles -->
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article1.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article14.html</loc>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article2.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article19.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article3.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article20.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article4.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article21.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article5.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article22.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article6.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article23.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article7.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article24.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article8.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article25.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article9.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article26.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article10.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article27.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article11.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article28.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article12.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article29.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article13.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article31.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article14.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article32.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article15.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article33.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article16.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article34.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article17.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article35.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article18.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article36.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article19.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article37.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article20.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article21.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article22.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article23.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article24.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article25.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article26.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article27.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article28.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article29.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article30.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article31.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article32.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article33.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article34.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article35.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article36.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article37.html</loc>
-    </url>
-
-    <url>
-        <loc>https://hennymoneyafric.indevs.in/article38.html</loc>
-    </url>
+  <url>
+    <loc>https://hennymoneyafric.indevs.in/article38.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
 
 </urlset>
